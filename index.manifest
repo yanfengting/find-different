@@ -1,0 +1,37 @@
+CACHE MANIFEST
+# v2 2016-06-06
+
+index.html
+index.js
+require.js
+mp3/a.mp3
+mp3/click.mp3
+mp3/complete.mp3
+mp3/pass.mp3
+mp3/timeout.mp3
+js/Audio.js
+js/CompleteScene.js
+js/Differences.js
+js/FullScreen.js
+js/Game.js
+js/GameScene.js
+js/GameSceneDatas.js
+js/Label.js
+js/Scene.js
+js/SecondManager.js
+js/StartScene.js
+js/TimeoutScene.js
+jquery/jquery.js
+jquery/jquery.fullscreen.js
+images/0.jpg
+images/1.jpg
+images/2.jpg
+images/3.jpg
+images/complete.jpg
+images/timeout.jpg
+
+
+NETWORK:
+
+
+FALLBACK:

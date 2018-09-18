@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html manifest="index.manifest">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="董书华">
+    <title>找不同</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        html {
+            height: 100%;
+        }
+        
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #666;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        main {
+            min-width: 900px;
+            width: 900px;
+            height: 565px;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        main img {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        
+        @keyframes s {
+            0% {
+                transform: scale(1)
+            }
+            50% {
+                transform: scale(1.2)
+            }
+            80% {
+                transform: scale(0.8)
+            }
+            100% {
+                transform: scale(1)
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main></main>
+    <audio src="mp3/a.mp3" loop></audio>
+    <audio src="mp3/click.mp3"></audio>
+    <audio src="mp3/pass.mp3"></audio>
+    <audio src="mp3/complete.mp3"></audio>
+    <audio src="mp3/timeout.mp3"></audio>
+    <script data-main="index.js" src="require.js"></script>
+</body>
+
+</html>
